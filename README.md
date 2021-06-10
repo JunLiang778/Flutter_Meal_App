@@ -1,16 +1,9 @@
 # meal_app
 
-A new Flutter project.
+A meal app with multiple screens using "Navigator.of(context)", implementing tabs/drawers, and passing data between screens using the argument property. Users of this app are able to browse meals by category, mark them as favourites, set filters where users can decide which kind of meals they want to include by using a toggle feature (eg: Gluten-free, Vegetarian, etc).
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Usage
+```
+flutter packages get
+flutter packages upgrade
+```
